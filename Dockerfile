@@ -1,4 +1,4 @@
-FROM neo4j:3.4.4-enterprise
+FROM neo4j:3.4.6-enterprise
 
 RUN mv plugins /plugins && ln -s /plugins
 
